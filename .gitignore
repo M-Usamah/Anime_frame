@@ -5,22 +5,7 @@
 # Pipeline outputs (generated frames, canny maps, logs)
 outputs/
 
-# Local animation datasets (large; keep on disk only)
-Dataset/
-Data/
-DataSets/
 
-# Reference / target images at project root (local assets, not source code)
-/*.png
-/*.jpg
-/*.jpeg
-/*.webp
-/*.gif
-/*.bmp
-/*.tif
-/*.tiff
-/*.ico
-/*.svg
 
 # Python
 __pycache__/
