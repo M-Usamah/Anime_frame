@@ -1,0 +1,22 @@
+[project]
+name = "anime-frame"
+version = "0.1.0"
+description = "Anime pose retargeting pipeline (Gemini + Canny)"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai",
+    "numpy",
+    "opencv-python",
+    "Pillow",
+    "scipy",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

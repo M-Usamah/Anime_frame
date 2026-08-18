@@ -1,0 +1,57 @@
+# Secrets — never commit API keys
+.env
+.env.*
+
+# Pipeline outputs (generated frames, canny maps, logs)
+outputs/
+
+# Local animation datasets (large; keep on disk only)
+Dataset/
+Data/
+DataSets/
+
+# Reference / target images at project root (local assets, not source code)
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.gif
+/*.bmp
+/*.tif
+/*.tiff
+/*.ico
+/*.svg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / lint caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE & editor
+.claude/
+.cursor/
+.cursorrules
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
