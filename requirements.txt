@@ -1,0 +1,6 @@
+google-genai
+numpy
+opencv-python-headless
+Pillow
+scipy
+streamlit>=1.32
